@@ -1,5 +1,4 @@
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class Main {
@@ -10,9 +9,11 @@ public class Main {
         System.out.println(calc.mul(1, 2));
         System.out.println(calc.div(1, 2));
 
-        @Test
-        void testAdd;{
-            Assert.assertEquals(21, Calculator.add(7,14 ) ) ;
+
         }
+
+    @Test
+    public void testAdd;{
+        Assert.assertEquals(21, Calculator.add(7,14 ) ) ;
     }
 }
