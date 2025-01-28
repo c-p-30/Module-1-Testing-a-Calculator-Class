@@ -9,11 +9,5 @@ public class Main {
         System.out.println(calc.mul(1, 2));
         System.out.println(calc.div(1, 2));
 
-
-        }
-
-    @Test
-    public void testAdd;{
-        Assert.assertEquals(21, Calculator.add(7,14 ) ) ;
     }
 }
